@@ -81,14 +81,14 @@
 :root {
     /* === FONT GROUPS === */
     /* Headings Font Family */
-    --bringer-t-heading-ff: 'Inter', sans-serif;
+    --bringer-t-heading-ff: 'Almarai', sans-serif;
     
     /* Headings Font Weight */
     --bringer-t-heading-fw: 600;
 
 
     /* Content Font Family */
-    --bringer-t-content-ff: 'Inter', sans-serif;
+    --bringer-t-content-ff: 'Almarai', sans-serif;
 
     /* Content Font Weight */
     --bringer-t-content-fw: 400;
