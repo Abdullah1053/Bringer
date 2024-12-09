@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Page Title -->
-    <title>Bringer | Our Services</title>
+    <title>ميون | للحلول الأقتصادية</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
     <!-- Config -->
     <link type="text/css" rel="stylesheet" href="css/config.css">
     <!-- Libraries -->
@@ -20,7 +23,26 @@
 
     <!-- Favicon -->
     <link rel="icon" href="img/favicon.png" sizes="32x32">
+
+    <style>
+        .stg-row>.stg-offset-3 {
+            margin-left: calc(0.5* var(--stg-gap) + 24%);
+        }
+
+
+
+
+        .stg-row>.stg-col-50,
+        .stg-row>.stg-col-6 {
+            width: calc(42% - var(--stg-gap));
+        }
+
+        .stg-row {
+            justify-content: flex-end;
+        }
+    </style>
 </head>
+
 <body>
     <!-- Header -->
     <header id="bringer-header" class="is-frosted is-sticky" data-appear="fade-down" data-unload="fade-up">
@@ -36,106 +58,22 @@
             <div class="bringer-header-mp">
                 <nav class="bringer-nav">
                     <ul class="main-menu" data-stagger-appear="fade-down" data-stagger-delay="75">
-                        <li>
-                            <a href="#">Home</a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="index.html">Home 01</a>
-                                </li>
-                                <li>
-                                    <a href="home02.html">Home 02</a>
-                                </li>
-                                <li>
-                                    <a href="home03.html">Home 03</a>
-                                </li>
-                                <li>
-                                    <a href="home04.html">Home 04</a>
-                                </li>
-                                <li>
-                                    <a href="home05.html">Home 05</a>
-                                </li>
-                                <li>
-                                    <a href="home06.html">Home 06</a>
-                                </li>
-                                <li>
-                                    <a href="home07.html">Home 07</a>
-                                </li>
-                                <li>
-                                    <a href="home08.html">Home 08</a>
-                                </li>
-                            </ul>
+                        <li >
+                            <a href="/">الرئيسية</a>
+
                         </li>
-                        <li>
-                            <a href="#">About Us</a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="about-us.html">About Us</a>
-                                </li>
-                                <li>
-                                    <a href="about-me.html">About Me</a>
-                                </li>
-                                <li>
-                                    <a href="team-member.html">Team Member</a>
-                                </li>
-                            </ul>
-                        </li>
+
                         <li class="current-menu-parent">
-                            <a href="#">Pages</a>
-                            <ul class="sub-menu">
-                                <li class="current-menu-item">
-                                    <a href="services.html">Our Services</a>
-                                </li>
-                                <li>
-                                    <a href="service-details.html">Service Details</a>
-                                </li>
-                                <li>
-                                    <a href="pricing.html">Pricing</a>
-                                </li>
-                                <li>
-                                    <a href="faq.html">F.A.Q.</a>
-                                </li>
-                                <li>
-                                    <a href="testimonials.html">Testimonials</a>
-                                </li>
-                            </ul>
+                            <a href="services.html">خدماتنا</a>
                         </li>
+
                         <li>
-                            <a href="#">Portfolio</a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="portfolio-infinite-list.html">Infinite List</a>
-                                </li>
-                                <li>
-                                    <a href="portfolio-slider.html">Slider</a>
-                                </li>
-                                <li>
-                                    <a href="portfolio-column.html">Column Cards</a>
-                                </li>
-                                <li>
-                                    <a href="portfolio-grid.html">Classic Grid</a>
-                                </li>
-                                <li class="bringer-menu-divider"></li>
-                                <li>
-                                    <a href="portfolio-post01.html">Portfolio Details 01</a>
-                                </li>
-                                <li>
-                                    <a href="portfolio-post02.html">Portfolio Details 02</a>
-                                </li>
-                                <li>
-                                    <a href="portfolio-post03.html">Portfolio Details 03</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="contacts.html">Contacts</a>
+                            <a href="contacts.html">تواصل معنا</a>
                         </li>
                     </ul>
                 </nav>
             </div>
             <!-- Header Button -->
-            <div class="bringer-header-rp">
-                <a href="contacts.html" class="bringer-button">Get a FREE Quote</a>
-            </div>
         </div>
         <!-- Mobile Header -->
         <div class="bringer-mobile-header-inner">
@@ -151,7 +89,6 @@
             </a>
         </div>
     </header>
-
     <!-- Page Main -->
     <main id="bringer-main">
         <div class="stg-container">
@@ -159,59 +96,115 @@
             <section class="backlight-bottom">
                 <div class="stg-row">
                     <div class="stg-col-6 stg-offset-3 align-center stg-tp-col-10 stg-tp-offset-1">
-                        <h1 class="bringer-page-title" data-appear="fade-up" data-unload="fade-up">Our Services</h1>
-                        <p class="bringer-large-text" data-split-appear="fade-up" data-delay="100" data-split-unload="fade-up">We offer a wide ↔ range of creative services to help businesses of all sizes achieve 🏆 their goals.</p>
+                        <h1 class="bringer-page-title" data-appear="fade-up" data-unload="fade-up">خدماتنا</h1>
+                        <p class="bringer-large-text" data-delay="100">ارتقِ بمستوى خدماتك مع شركة ميون الاقتصادية 🏆.
+                        </p>
                     </div>
                 </div>
             </section>
 
             <!-- Section: Intro -->
             <section>
-                <!-- Section Image -->
                 <div class="bringer-parallax-media stg-bottom-gap-l" data-appear="fade-up" data-unload="fade-up">
-                    <img class="bringer-lazy" src="img/null.png" data-src="img/inner-pages/services.jpg" alt="Bringer Services" width="1920" height="960">
+                    <img class="bringer-lazy" src="img/null.png" data-src="img/home/service0.jpg" alt="Bringer Services"
+                        width="1920" height="960">
                 </div>
 
-                <!-- Section Title -->
                 <div class="stg-row stg-bottom-gap">
-                    <div class="stg-col-6" data-unload="fade-left">
-                        <h2 class="stg-bottom-gap" data-split-appear="fade-up">Discover the spark ✨ with Bringer's Services.</h2>
+                    <div class="stg-col-12" data-unload="fade-left">
+                        <h2 class="stg-bottom-gap">المقاولات والإنشاءات</h2>
                     </div>
-                    <div class="stg-col-6"></div>
+
                 </div>
 
-                <!-- Section Content -->
                 <div class="stg-row stg-tp-column-reverse">
-                    <div class="stg-col-6 stg-valign-bottom" data-unload="fade-left">
-                        <div class="align-right">
-                            <a href="pricing.html" class="bringer-icon-link" data-appear="fade-right">
-                                <div class="bringer-icon-link-content">
-                                    <h6>
-                                        Unleash your
-                                        <br>
-                                        Brand's potential
-                                    </h6>
-                                    <span class="bringer-label">Discover Price List</span>
-                                </div>
-                                <div class="bringer-icon-wrap">
-                                    <i class="bringer-icon bringer-icon-explore"></i>
-                                </div>
-                            </a><!-- .bringer-icon-link -->
-                        </div>
-                    </div>
-                    <div class="stg-col-6 stg-tp-col-9 stg-tp-bottom-gap" data-appear="fade-left" data-unload="fade-right">
-                        <p class="bringer-large-text">Unleash your brand's full potential. Your brand is a fire waiting to be ignited. We provide the fuel, the spark, and the expert guidance to watch your brand blaze a trail and captivate the world. Explore our services and discover how Bringer can help you achieve your goals.</p>
+                    <div class="stg-col-12 stg-tp-col-12 stg-tp-bottom-gap" data-appear="fade-left"
+                        data-unload="fade-right">
+                        <p class="bringer-large-text">نحوّل الأفكار إلى معالم بارزة تُلهم الأجيال، بخدمات مقاولات
+                            وإنشاءات تعتمد على الإبداع والدقة الهندسية. نقدم مجموعة شاملة من الخدمات لتلبية احتياجات
+                            مشاريعك بكل احترافية.</p>
                     </div>
                 </div>
             </section>
 
-            <!-- Section: Our Services -->
-            <section class="backlight-top">
-                <!-- Section Title -->
+
+            <section>
+                <div class="bringer-parallax-media stg-bottom-gap-l" data-appear="fade-up" data-unload="fade-up">
+                    <img class="bringer-lazy" src="img/null.png" data-src="img/home/service02.jpg"
+                        alt="Bringer Services" width="1920" height="960">
+                </div>
+
+                <div class="stg-row stg-bottom-gap">
+                    <div class="stg-col-12" data-unload="fade-left">
+                        <h2 class="stg-bottom-gap">خدمات النقل</h2>
+                    </div>
+
+                </div>
+
+                <div class="stg-row stg-tp-column-reverse">
+                    <div class="stg-col-12 stg-tp-col-12 stg-tp-bottom-gap" data-appear="fade-left"
+                        data-unload="fade-right">
+                        <p class="bringer-large-text">نحرك أعمالك بحلول نقل مصممة لتجاوز التوقعات. سواء كنت تحتاج إلى
+                            شحنات خفيفة أو نقل مشاريع ضخمة، نضمن سلامة وصولها بسرعة ودقة، لأننا نؤمن بأن كل رحلة تبدأ
+                            بثقة وتنتهي بالنجاح.</p>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section>
+                <div class="bringer-parallax-media stg-bottom-gap-l" data-appear="fade-up" data-unload="fade-up">
+                    <img class="bringer-lazy" src="img/null.png" data-src="img/home/service03.jpg"
+                        alt="Bringer Services" width="1920" height="960">
+                </div>
+
+                <div class="stg-row stg-bottom-gap">
+                    <div class="stg-col-12" data-unload="fade-left">
+                        <h2 class="stg-bottom-gap">الخدمات النفطية</h2>
+                    </div>
+
+                </div>
+
+                <div class="stg-row stg-tp-column-reverse">
+                    <div class="stg-col-12 stg-tp-col-12 stg-tp-bottom-gap" data-appear="fade-left"
+                        data-unload="fade-right">
+                        <p class="bringer-large-text">في عالم الطاقة، نبقى الشريك الذي يعتمد عليه. نقدم حلولاً شاملة
+                            لدعم العمليات النفطية في أصعب الظروف، من نقل المعدات الثقيلة إلى تقديم الإمدادات، لأن كفاءة
+                            مشاريعك هي أولويتنا.</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <section>
+                <div class="bringer-parallax-media stg-bottom-gap-l" data-appear="fade-up" data-unload="fade-up">
+                    <img class="bringer-lazy" src="img/null.png" data-src="img/home/service04.jpg"
+                        alt="Bringer Services" width="1920" height="960">
+                </div>
+
+                <div class="stg-row stg-bottom-gap">
+                    <div class="stg-col-12" data-unload="fade-left">
+                        <h2 class="stg-bottom-gap">الشحن والتخليص الجمركي</h2>
+                    </div>
+
+                </div>
+
+                <div class="stg-row stg-tp-column-reverse">
+                    <div class="stg-col-12 stg-tp-col-12 stg-tp-bottom-gap" data-appear="fade-left"
+                        data-unload="fade-right">
+                        <p class="bringer-large-text">نحول التعقيد إلى بساطة في كل عملية عبور. بخبرتنا واحترافنا، نُسرّع
+                            الإجراءات الجمركية لضمان تسليم شحناتك بسلاسة، لتصل إلى حيث يجب دون عناء أو تأخير.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="backlight-top" style="display: none;">
                 <div class="stg-row bringer-section-title">
                     <div class="stg-col-10 stg-offset-1">
                         <div class="align-center">
-                            <h2 data-split-appear="fade-up" data-split-unload="fade-up">The full spectrum of brand 🪄 magic. Choose your adventure.</h2>
+                            <h2 data-split-appear="fade-up" data-split-unload="fade-up">The full spectrum of brand 🪄
+                                magic. Choose your adventure.</h2>
                         </div>
                     </div>
                 </div>
@@ -223,7 +216,10 @@
                                 <h4>Branding<span class="bringer-accent">.</span></h4>
                             </div>
                             <div class="bringer-detailed-list-description">
-                                <p>We weave visual stories and craft strategic messaging that resonate at heartstrings, build unwavering trust, and turn customers into fervent brand champions. Imagine seeing your logo come alive, not just a symbol but a rallying cry, an unwavering beacon in a sea of sameness. That's the power of branding we unleash.</p>
+                                <p>We weave visual stories and craft strategic messaging that resonate at heartstrings,
+                                    build unwavering trust, and turn customers into fervent brand champions. Imagine
+                                    seeing your logo come alive, not just a symbol but a rallying cry, an unwavering
+                                    beacon in a sea of sameness. That's the power of branding we unleash.</p>
                             </div>
                             <div class="bringer-detailed-list-button">
                                 <span class="bringer-icon bringer-icon-explore"></span>
@@ -235,7 +231,10 @@
                                 <h4>Marketing<span class="bringer-accent">.</span></h4>
                             </div>
                             <div class="bringer-detailed-list-description">
-                                <p>We design data-driven campaigns that crackle with energy, ignite engagement like wildfire, and turn clicks into conversions. Picture social media abuzz with your brand, blog posts sparking curiosity, and targeted ads finding their perfect match. We're the storm that propels your brand to ever-higher heights.</p>
+                                <p>We design data-driven campaigns that crackle with energy, ignite engagement like
+                                    wildfire, and turn clicks into conversions. Picture social media abuzz with your
+                                    brand, blog posts sparking curiosity, and targeted ads finding their perfect match.
+                                    We're the storm that propels your brand to ever-higher heights.</p>
                             </div>
                             <div class="bringer-detailed-list-button">
                                 <span class="bringer-icon bringer-icon-explore"></span>
@@ -247,7 +246,10 @@
                                 <h4>Graphic Design<span class="bringer-accent">.</span></h4>
                             </div>
                             <div class="bringer-detailed-list-description">
-                                <p>We craft visual masterpieces that sing your brand's story in vibrant colors and captivating shapes. From logos that lodge in minds to infographics that make complex ideas sing, we inject emotional punch and crystal-clear clarity into every pixel. Let your visuals become the unforgettable face of your brand.</p>
+                                <p>We craft visual masterpieces that sing your brand's story in vibrant colors and
+                                    captivating shapes. From logos that lodge in minds to infographics that make complex
+                                    ideas sing, we inject emotional punch and crystal-clear clarity into every pixel.
+                                    Let your visuals become the unforgettable face of your brand.</p>
                             </div>
                             <div class="bringer-detailed-list-button">
                                 <span class="bringer-icon bringer-icon-explore"></span>
@@ -259,7 +261,11 @@
                                 <h4>Web Design<span class="bringer-accent">.</span></h4>
                             </div>
                             <div class="bringer-detailed-list-description">
-                                <p>We sculpt user-friendly websites that convert visitors into loyal devotees, seamlessly blending stunning aesthetics with intuitive navigation and flawless experiences for every screen. Imagine your website as a warm, inviting space where potential customers linger, explore, and ultimately succumb to its charms. We craft that digital haven.</p>
+                                <p>We sculpt user-friendly websites that convert visitors into loyal devotees,
+                                    seamlessly blending stunning aesthetics with intuitive navigation and flawless
+                                    experiences for every screen. Imagine your website as a warm, inviting space where
+                                    potential customers linger, explore, and ultimately succumb to its charms. We craft
+                                    that digital haven.</p>
                             </div>
                             <div class="bringer-detailed-list-button">
                                 <span class="bringer-icon bringer-icon-explore"></span>
@@ -271,7 +277,10 @@
                                 <h4>Content Creation<span class="bringer-accent">.</span></h4>
                             </div>
                             <div class="bringer-detailed-list-description">
-                                <p>We weave compelling narratives into blog posts, website copy, and social media content that resonate with your audience like a well-loved symphony. Picture search engines whispering your brand's name, and customers sharing your story with eager ears. We craft the voice that makes your brand sing.</p>
+                                <p>We weave compelling narratives into blog posts, website copy, and social media
+                                    content that resonate with your audience like a well-loved symphony. Picture search
+                                    engines whispering your brand's name, and customers sharing your story with eager
+                                    ears. We craft the voice that makes your brand sing.</p>
                             </div>
                             <div class="bringer-detailed-list-button">
                                 <span class="bringer-icon bringer-icon-explore"></span>
@@ -283,7 +292,7 @@
             </section>
 
             <!-- Section: Marquee -->
-            <section class="is-fullwidth is-stretched" data-padding="none">
+            <section class="is-fullwidth is-stretched" data-padding="none" style="display: none;">
                 <div class="bringer-marquee" data-speed="5000">
                     <div class="bringer-marquee-inner">
                         <ul class="bringer-marquee-list">
@@ -295,7 +304,7 @@
                             </li>
                             <li>
                                 <h2>Creative Firestorms</h2>
-                            </li> 
+                            </li>
                             <li>
                                 <h2>Ignite Results</h2>
                             </li>
@@ -305,50 +314,69 @@
             </section>
 
             <!-- Section: What Makes Us Best -->
-            <section class="backlight-bottom">
+            <section class="backlight-bottom" style="display: none;">
                 <!-- Section Title -->
                 <div class="stg-row bringer-section-title">
                     <div class="stg-col-8 stg-offset-2">
                         <div class="align-center">
                             <h2 data-appear="fade-up" data-unload="fade-up">What Makes Us Best</h2>
-                            <p class="bringer-large-text" data-appear="fade-up" data-delay="100" data-unload="fade-up">We are a passionate team of designers and developers who believe in the power of creativity. We help creative professionals create a strong online presence that showcases their work and tells their story.</p>
+                            <p class="bringer-large-text" data-appear="fade-up" data-delay="100" data-unload="fade-up">
+                                We are a passionate team of designers and developers who believe in the power of
+                                creativity. We help creative professionals create a strong online presence that
+                                showcases their work and tells their story.</p>
                         </div>
                     </div>
                 </div>
                 <!-- Content Grid -->
-                <div class="bringer-grid-2cols bringer-tp-grid-1col" data-stagger-appear="zoom-in" data-stagger-delay="100" data-delay="100" data-unload="fade-up">
+                <div class="bringer-grid-2cols bringer-tp-grid-1col" data-stagger-appear="zoom-in"
+                    data-stagger-delay="100" data-delay="100" data-unload="fade-up">
                     <!-- Card Item 01 -->
                     <div class="bringer-block">
-                        <h4>We don't just design, we <span class="bringer-accent">unleash creative</span> firestorms<span class="bringer-accent">.</span></h4>
-                        <p>Tired of bland marketing and cookie-cutter websites? We infuse your brand with bold ideas and strategic brilliance, igniting campaigns that capture hearts and drive tangible results. Forget sparklers, we're here to light the fire.</p>
+                        <h4>We don't just design, we <span class="bringer-accent">unleash creative</span>
+                            firestorms<span class="bringer-accent">.</span></h4>
+                        <p>Tired of bland marketing and cookie-cutter websites? We infuse your brand with bold ideas and
+                            strategic brilliance, igniting campaigns that capture hearts and drive tangible results.
+                            Forget sparklers, we're here to light the fire.</p>
                     </div><!-- .bringer-block -->
                     <!-- Card Item 02 -->
                     <div class="bringer-block">
-                        <h4>We <span class="bringer-accent">fuel creativity</span> with data, guide passion with precision<span class="bringer-accent">.</span></h4>
-                        <p>We're not just artistic dreamers, we're strategic alchemists. We blend data-driven insights with unbridled passion, ensuring your campaigns reach the right audience, hit the right chords, and deliver measurable results. Because passion without direction is a beautiful mess.</p>
+                        <h4>We <span class="bringer-accent">fuel creativity</span> with data, guide passion with
+                            precision<span class="bringer-accent">.</span></h4>
+                        <p>We're not just artistic dreamers, we're strategic alchemists. We blend data-driven insights
+                            with unbridled passion, ensuring your campaigns reach the right audience, hit the right
+                            chords, and deliver measurable results. Because passion without direction is a beautiful
+                            mess.</p>
                     </div><!-- .bringer-block -->
                     <!-- Card Item 03 -->
                     <div class="bringer-block">
-                        <h4>We craft <span class="bringer-accent">emotional connections</span>, not just visuals and copy<span class="bringer-accent">.</span></h4>
-                        <p>We delve deeper than pixels and prose. We understand the human heart, the language of emotions. We weave stories that resonate, visuals that linger in minds, and content that sparks conversations. Because true connection is the foundation of brand loyalty.</p>
+                        <h4>We craft <span class="bringer-accent">emotional connections</span>, not just visuals and
+                            copy<span class="bringer-accent">.</span></h4>
+                        <p>We delve deeper than pixels and prose. We understand the human heart, the language of
+                            emotions. We weave stories that resonate, visuals that linger in minds, and content that
+                            sparks conversations. Because true connection is the foundation of brand loyalty.</p>
                     </div><!-- .bringer-block -->
                     <!-- Card Item 04 -->
                     <div class="bringer-block">
-                        <h4>We don't just work with you, we become your <span class="bringer-accent">creative champions.</span></h4>
-                        <p>We don't see clients, we see collaborators. We believe in building partnerships, in understanding your vision, and becoming an extension of your team. Your goals are our canvas, your success our masterpiece. We paint your dreams into reality, together.</p>
+                        <h4>We don't just work with you, we become your <span class="bringer-accent">creative
+                                champions.</span></h4>
+                        <p>We don't see clients, we see collaborators. We believe in building partnerships, in
+                            understanding your vision, and becoming an extension of your team. Your goals are our
+                            canvas, your success our masterpiece. We paint your dreams into reality, together.</p>
                     </div><!-- .bringer-block -->
                 </div>
             </section>
 
             <!-- Section: Grid CTA -->
-            <section>
+            <section style="display: none;">
                 <div class="bringer-bento-grid bringer-grid-cta">
                     <div class="is-large bringer-masked-block" data-appear="fade-right" data-unload="fade-left">
-                        <div class="bringer-grid-cta-media bringer-masked-media" data-bg-src="img/cta/grid-cta-background.jpg">
+                        <div class="bringer-grid-cta-media bringer-masked-media"
+                            data-bg-src="img/cta/grid-cta-background.jpg">
                             <div class="bringer-grid-cta-heading">Need to amplify your voice?</div>
                         </div>
                         <div class="bringer-masked-content at-bottom-right">
-                            <p class="bringer-large-text" data-appear="fade-right" data-delay="100">Let's chat about your goals &rarr;</p>
+                            <p class="bringer-large-text" data-appear="fade-right" data-delay="100">Let's chat about
+                                your goals &rarr;</p>
                         </div>
                     </div>
                     <div class="is-medium bringer-block" data-appear="fade-down" data-unload="fade-right">
@@ -369,40 +397,28 @@
 
         <!-- Footer -->
         <footer id="bringer-footer" data-appear="fade-up" data-unload="fade-down">
-            <!-- Footer Widgets Area -->
             <div class="bringer-footer-widgets">
                 <div class="stg-container">
-                    <div class="stg-row" data-stagger-appear="fade-left" data-stagger-delay="100">
+                    <div class="stg-row" data-stagger-appear="fade-left" data-stagger-delay="100" style="justify-content:space-between !important ;" > 
                         <div class="stg-col-5 stg-tp-col-12 stg-tp-bottom-gap-l">
                             <div class="bringer-info-widget">
                                 <a href="./" class="bringer-logo footer-logo">
                                     <img src="img/logo.png" alt="bringer." width="88" height="24">
                                 </a>
-                                <div class="bringer-info-description">We are a passionate team of developers and designers who believe in the power of creativity. We help creative people create a strong online presence that shows their work and tells a story.</div>
-                                <span class="bringer-label">Follow us:</span>
+                                <div class="bringer-info-description">ميون الاقتصادية تجمع بين الخبرة والاستثناء لتقديم
+                                    خدمات متكاملة تلبي التوقعات وتحقق احتياجات عُملائنا في مختلف القطاعات الاقتصادية،
+                                    نفخر بكوننا أحد الرواد في تقديم حلول ذات جودة عالية تساهم في تحسين كفاءة العمليات
+                                    وتحقيق التميز في عالم الأعمال .</div>
+                                <span class="bringer-label">تابعنا:</span>
                                 <ul class="bringer-socials-list" data-stagger-appear="fade-up" data-stagger-delay="75">
                                     <li>
-                                        <a href="#" target="_blank" class="bringer-socials-facebook">
+                                        <a href="https://www.instagram.com/meayon.sa/" target="_blank"
+                                            class="bringer-socials-instagram">
                                             <i></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank" class="bringer-socials-instagram">
-                                            <i></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" class="bringer-socials-x">
-                                            <i></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" class="bringer-socials-tiktok">
-                                            <i></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" class="bringer-socials-patreon">
+                                        <a href="https://x.com/meayonsa" target="_blank" class="bringer-socials-x">
                                             <i></i>
                                         </a>
                                     </li>
@@ -411,64 +427,34 @@
                         </div>
                         <div class="stg-col-2 stg-offset-1 stg-tp-col-4 stg-m-col-4">
                             <div class="bringer-widget">
-                                <h6>Services</h6>
+                                <h6>روابطنا</h6>
                                 <div class="bringer-menu-widget">
                                     <ul>
-                                        <li><a href="service-details.html">Branding</a></li>
-                                        <li><a href="service-details.html">Marketing</a></li>
-                                        <li><a href="service-details.html">Graphic Design</a></li>
-                                        <li><a href="service-details.html">Web Design</a></li>
-                                        <li><a href="service-details.html">Content Creation</a></li>
+                                        <li><a href="services.html">خدماتنا</a></li>
+                                        <li><a href="contacts.html">تواصل معنا</a></li>
+                                        <li><a href="index.html">الرئيسية</a></li>
                                     </ul>
                                 </div>
-                            </div><!-- .bringer-widget -->
+                            </div>
                         </div>
-                        <div class="stg-col-2 stg-tp-col-4 stg-m-col-4">
-                            <div class="bringer-widget">
-                                <h6>About Us</h6>
-                                <div class="bringer-menu-widget">
-                                    <ul>
-                                        <li><a href="about-us.html">About Us</a></li>
-                                        <li><a href="about-me.html">About Me</a></li>
-                                        <li><a href="team-member.html">Our Team</a></li>
-                                        <li><a href="testimonials.html">Testimonials</a></li>
-                                        <li><a href="contacts.html">Get in Touch</a></li>
-                                    </ul>
-                                </div>
-                            </div><!-- .bringer-widget -->
-                        </div>
-                        <div class="stg-col-2 stg-tp-col-4 stg-m-col-4">
-                            <div class="bringer-widget">
-                                <h6>Resources</h6>
-                                <div class="bringer-menu-widget">
-                                    <ul>
-                                        <li><a href="pricing.html">Pricing</a></li>
-                                        <li><a href="faq.html">Help Center</a></li>
-                                        <li><a href="services.html">Our Services</a></li>
-                                        <li><a href="#">Terms of Use</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                    </ul>
-                                </div>
-                            </div><!-- .bringer-widget -->
-                        </div>
-                    </div><!-- .stg-row -->
-                </div><!-- .stg-container -->
-            </div><!-- .bringer-footer-widgets -->
+                    </div>
+                </div>
+            </div>
 
-            <!-- Footer Copyright Line -->
             <div class="bringer-footer-line stg-container">
                 <div class="align-center">
-                    Copyright &copy; 2024. All Rights Reserved.
+                    Copyright &copy; 2024. All Rights Reserve Doing.
                 </div>
-            </div><!-- bringer-footer-line -->
+            </div>
         </footer>
-	</main>
+    </main>
 
     <!-- Right Click Protection Block -->
+
     <div class="bringer-rcp-wrap">
         <div class="bringer-rcp-overlay"></div>
         <div class="bringer-rcp-container">
-            <h2>The context menu is not allowed on this page.</h2>
+            <h2>غير مسموح لك الوصول للبيانات هذه</h2>
         </div>
     </div>
 
@@ -483,4 +469,5 @@
     <script src="js/classes.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>
